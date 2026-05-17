@@ -1,0 +1,10 @@
+{
+  "name": "mem-obsidian",
+  "description": "Converts Claude Code sessions into structured, dense Obsidian notes.",
+  "version": "1.0.0",
+  "config": {
+    "coursework_vault": "${OBSIDIAN_COURSEWORK_VAULT_PATH}",
+    "projects_vault": "${OBSIDIAN_PROJECTS_VAULT_PATH}",
+  },
+  "instructions": "When a user wraps up a session with keywords like 'done' or 'thanks', parse the session context. If academic, format with full formulas and step-by-step calculations and save to the coursework vault structure. If project-based, extract code snippets, system architecture changes, and decision logs, then save to the projects vault structure. Always present a dense markdown preview and ask for confirmation before saving."
+}
